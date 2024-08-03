@@ -23,14 +23,17 @@ This repository contains the code and analysis for an e-commerce dataset using S
    git clone https://github.com/yourusername/ecommerce-data-analysis.git
 
 
-2, **Install the required modules:**
+2. **Install the required modules:**
 
     pip install mysql-connector-python pandas seaborn matplotlib numpy
 
 
 ## Data Analysis and Visualization
 
-We use SQL for querying the database and Python (with pandas, seaborn, and matplotlib) for data visualization. Below are some insights derived from the analysis of the E-Commerce data:-
+We use SQL for querying the database and Python (with pandas, seaborn, and matplotlib) for data visualization.<br><br>
+**[csv_2_tables.py](./csv_2_tables.py)** file is implemented to convert raw data from CSV to tables and prepare the data in tabular form.<br><br>
+**[SQL Driven E-Commerce Data Analysis.ipynb](./SQL_Driven_E-Commerce_Data_Analysis.ipynb)** notebook contains the implementation of Data Analysis & Visualization of the E-Commerce data.<br><br>
+Below are some insights derived from the analysis of the E-Commerce data:-
 
 
 1. **Moving average of order values for each customer over their order history.**
@@ -54,11 +57,11 @@ We use SQL for querying the database and Python (with pandas, seaborn, and matpl
 6. **Top 3 customers who spent the most money in each year.**
 
 
-   ![Screenshot 2024-08-03 150854](https://github.com/user-attachments/assets/74b7ffd6-5056-425f-93c8-c7d1bdda85d3)
+   ![Screenshot 2024-08-03 161502](https://github.com/user-attachments/assets/c4802882-d2e0-47c1-be94-6470f5a194e9)
    <br><br><br>
 
 
-7. **Percentage of total revenue contributed by each product category.**
+8. **Percentage of total revenue contributed by each product category.**
 
 
    ![Screenshot 2024-08-03 144744](https://github.com/user-attachments/assets/c4b2f8a8-3f23-4193-b9e1-24101cecbc7d)
