@@ -25,6 +25,7 @@ This repository contains the code and analysis for an e-commerce dataset using S
 
 2. **Install the required modules:**
 
+    ```bash
     pip install mysql-connector-python pandas seaborn matplotlib numpy
 
 
